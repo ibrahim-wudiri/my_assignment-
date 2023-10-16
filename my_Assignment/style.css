@@ -1,0 +1,93 @@
+
+   
+body{
+    background-image: url("proLang.jpg");
+    background-repeat: repeat-x;
+    margin-top: 100px;
+    align-items: center;
+
+}
+#container{
+    padding: auto;
+    padding-top: 100px;
+    background: #7cc0ac;
+    max-width: 600px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    color: aliceblue;
+    border-radius: 10px;
+    /* position: relative; */
+
+}
+button{
+    background-color: #0ab372;
+    color: white;
+    align-items: center;
+    width: 100px;
+    margin: 0 5px 0 5px;
+    height: 30px;
+    border-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-color: black;
+    /* position: absolute; */
+   
+}
+button:hover{
+    background-color: #bfbfbf;
+    cursor: pointer;
+}
+.buttons{
+    margin: 30%;
+    padding: auto;
+
+}
+#h1{
+    text-align: center;
+    font-size: 5vh;
+}
+
+/* Sign In page */
+
+.signin{
+    color: aliceblue;
+    background: #0ab372;
+    font-size: 20px;
+    max-width: 500px;
+    height: 100px;
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    padding: 10px;
+}
+form{
+    color: rgb(11, 12, 12);
+    background: #f0f3f2;
+    font-size: 20px;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    color: rgb(13, 13, 14);
+    font-size: 20px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    opacity: 1px;
+}
+table input{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+table td{
+    /* margin-top: 10px; */
+    padding: 10px;
+}
